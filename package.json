@@ -1,0 +1,29 @@
+{
+  "name": "youtubeseq-api",
+  "version": "1.0.0",
+  "description": "Api for http://youtubeseq.com",
+  "main": "index.coffee",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "body-parser": "^1.10.0",
+    "cors": "^2.5.2",
+    "nconf": "^0.7.1",
+    "debug": "^2.1.0",
+    "express": "^4.10.6",
+    "require-fu": "^1.0.0",
+    "youtubeseq-domain": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "DEBUG=youtubeseq* coffee index.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "sequence",
+    "api",
+    "restfull"
+  ],
+  "author": "Carlos Villuendas <carlosvillu@gmail.com>",
+  "license": "MIT"
+}
