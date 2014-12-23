@@ -4,7 +4,7 @@ app = express()
 debug = require('debug')('youtubeseq-api-debug')
 config = require './config'
 
-app.use require('cors')
+app.use require('cors')()
 app.use '/api/sequences', require('./routers/sequences')
 
 app.use ( req, res, next ) ->

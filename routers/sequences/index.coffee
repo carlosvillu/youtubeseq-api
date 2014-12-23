@@ -1,3 +1,4 @@
+Promise = require 'bluebird'
 express = require 'express'
 app = express()
 {YoutubeFactory, SequenceForVideoFactory} = require 'youtubeseq-domain'
